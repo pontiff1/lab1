@@ -1,0 +1,28 @@
+body {
+	margin-top: 30px;
+	margin-left: 15px;
+	font-family: Verdana, sans-serif;;
+	background: grey;
+}
+#telega > a{
+	text-decoration: none;
+}
+.wrap-info-about-me{
+	position: relative;
+	padding: 1em;
+	background: #ffdcc4;
+	border-radius: 4px;
+	box-shadow: 2px 1px 3px #ffdcc4;
+}
+.info-about-me{
+ 	margin: 0;
+ 	text-align: left;
+}
+.info-about-me > div{
+	padding: 7px;
+}
+
+.info-about-me div:nth-child(odd) {
+    background-color: #fcd0b1;/* фон нечетных столбцов */
+  }
+
